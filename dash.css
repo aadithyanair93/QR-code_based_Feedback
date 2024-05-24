@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    border-top: 1px solid white;
+}
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-box-1 {
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    text-align: center;
+    color:white;
+}
+.stat-box-2 {
+    background-color: #F9C81B;
+    padding: 20px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    text-align: center;
+    color:white;
+}
+.stat-box-3 {
+    background-color: rgb(116, 227, 25);
+    padding: 20px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    text-align: center;
+    color:white;
+}
+.stat-box-1:hover{
+    cursor: pointer;
+    background-color: rgb(178, 61, 61);
+}
+.stat-box-2:hover{
+    cursor: pointer;
+    background-color: rgb(162, 162, 49);
+}
+.stat-box-3:hover{
+    cursor: pointer;
+    background-color: rgb(92, 163, 92);
+}
+.stat-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
